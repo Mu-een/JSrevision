@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+form input, body {
+    text-align: center;
+}
